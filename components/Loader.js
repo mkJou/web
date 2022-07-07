@@ -44,7 +44,7 @@ const Loader = ({ finishLoading }) => {
     const timeout = setTimeout(() => setisMounted(true), 10)
     animate()
     return () => clearTimeout(timeout)
-  }, [])
+  })
 
   return (
     <div className="loader" isMounted={isMounted}>

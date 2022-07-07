@@ -2,20 +2,22 @@ const siteMetadata = {
   title: 'Joalex Urdaneta',
   author: 'Joalex Urdaneta',
   headerTitle: 'Web Developer',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description:
+    'Joalex Urdaneta is a web developer who specializes in creating solutions and bringing ideas to the web world.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://itsjoalex.com',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteRepo: 'https://github.com/mkJou/web',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'hello@itsjoalex.com',
-  github: 'https://github.com/mkJou',
-  twitter: 'https://twitter.com/itsJoalex',
-  facebook: 'https://facebook.com/joalex-pro',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/joalexurdaneta',
+  socialMedia: {
+    twitter: 'https://twitter.com/itsJoalex',
+    github: 'https://github.com/mkJou',
+    linkedin: 'https://www.linkedin.com/in/joalexurdaneta',
+    instagram: 'https://instagram.com/itsJoalex',
+  },
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -50,7 +52,7 @@ const siteMetadata = {
       metadata: '0',
       // theme example: light, dark, dark_dimmed, dark_high_contrast
       // transparent_dark, preferred_color_scheme, custom
-      theme: 'light',
+      theme: 'dark',
       // Place the comment box above the comments. options: bottom, top
       inputPosition: 'bottom',
       // Choose the language giscus will be displayed in. options: en, es, zh-CN, zh-TW, ko, ja etc
