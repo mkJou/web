@@ -1,12 +1,12 @@
 const siteMetadata = {
-  title: 'Joalex Urdaneta',
+  title: 'Joalex Urdaneta - Web Developer',
   author: 'Joalex Urdaneta',
   headerTitle: 'Web Developer',
   description:
     'Joalex Urdaneta is a web developer who specializes in creating solutions and bringing ideas to the web world.',
   language: 'en-us',
   theme: 'dark', // system, dark or light
-  siteUrl: 'https://itsjoalex.com',
+  siteUrl: 'https://www.itsjoalex.com',
   siteRepo: 'https://github.com/mkJou/web',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.itsjoalex.com/sitemap.xml
+Host: https://www.itsjoalex.com

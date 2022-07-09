@@ -96,12 +96,12 @@ export default function Home({ posts }) {
         <div className="container mx-auto max-w-3xl px-6 py-8 sm:px-6 lg:pt-0 xl:max-w-6xl">
           <div className="grid grid-cols-1 items-center sm:flex">
             <div className="lg:w-1/2">
-              <h1 className="mb-6 text-5xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl sm:leading-10 md:text-8xl md:leading-14">
+              <h2 className="mb-6 text-5xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl sm:leading-10 md:text-8xl md:leading-14">
                 About{' '}
                 <span className="bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
                   me
                 </span>
-              </h1>
+              </h2>
 
               <p className="lg:max-w-1xl text-justify text-gray-500 dark:text-gray-400 sm:text-xl">
                 Self-taught Web developer, committed, passionate and motivated by his field with a
@@ -243,7 +243,7 @@ export default function Home({ posts }) {
           </svg>
           <div className="grid w-full grid-cols-1 items-center sm:grid-cols-2 sm:gap-8 ">
             <div className="py-16 px-4">
-              <h2 className="z-1 mb-4 text-justify text-5xl font-extrabold tracking-wide text-gray-900 dark:text-white sm:text-8xl">
+              <h2 className="z-1 mb-4 text-left text-5xl font-extrabold tracking-wide text-gray-900 dark:text-white sm:text-justify sm:text-8xl">
                 Things he{' '}
                 <span className="bg-gradient-to-r from-teal-200 to-teal-600 bg-clip-text text-transparent">
                   created
@@ -322,7 +322,7 @@ export default function Home({ posts }) {
                           {project.title}
                         </div>
                       </div>
-                      <p className="px-5 text-justify text-sm" id="project-description">
+                      <p className="px-5 text-justify text-xs" id="project-description">
                         {project.description}
                       </p>
                       <ol className="flex justify-between px-5 text-xs text-gray-500">
@@ -433,11 +433,11 @@ export default function Home({ posts }) {
               </span>
             </h2>
           </div>
-          <p className="mb-8 px-52 text-center font-light text-gray-500 dark:text-gray-400 sm:text-xl lg:mb-16">
-            Anything to tell me, question/idea/project? My inbox will always be open, I will do my
-            best to answer you!
-          </p>
           <div className="mx-auto max-w-screen-md gap-8 text-gray-900  dark:text-white">
+            <p className="mb-8 sm:px-36">
+              Anything to tell me, question/idea/project? My inbox will always be open, I will do my
+              best to answer you!
+            </p>
             <a
               href={`mailto:${siteMetadata.email}`}
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 px-4 py-2.5 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:text-orange-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
