@@ -87,4 +87,13 @@ module.exports = withBundleAnalyzer({
 
     return config
   },
+  async redirects() {
+    return [
+      {
+        source: '/twitter',
+        destination: 'https://twitter.com/itsjoalex',
+        permanent: true,
+      },
+    ]
+  },
 })
