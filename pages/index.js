@@ -50,7 +50,9 @@ export default function Home({ posts }) {
           digital experiences. Currently, I’m focused on building accessible, human-centered
           products.
           <br />
-          At the moment my website is under renovation. You can contact me through my social networks or through my email: <a href="mailto:hello@itsjoalex.com">hello@itsjoalex.com</a>. Greetings!
+          At the moment my website is under renovation. You can contact me through my social
+          networks or through my email: <a href="mailto:hello@itsjoalex.com">hello@itsjoalex.com</a>
+          . Greetings!
         </p>
         <div className="justfy-align-text align-center flex animate-[wiggle_1s_ease-in-out_infinite] items-center justify-center pt-36 pb-0 sm:pt-40">
           <a
@@ -72,8 +74,6 @@ export default function Home({ posts }) {
           </a>
         </div>
       </section>
-
-
 
       <div className="inset-x-0 bottom-0">
         <svg
